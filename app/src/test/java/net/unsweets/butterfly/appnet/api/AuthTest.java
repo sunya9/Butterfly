@@ -1,8 +1,7 @@
-package net.unsweets.butterfly.api;
+package net.unsweets.butterfly.appnet.api;
 
 import net.unsweets.butterfly.BuildConfig;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
