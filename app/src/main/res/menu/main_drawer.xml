@@ -3,14 +3,22 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
 
   <group android:checkableBehavior="single"
-    android:id="@+id/menu_main">
-    <item android:title="@string/home" />
-    <item android:title="@string/messages" />
-    <item android:title="@string/stars" />
+    android:id="@+id/main_main_menu_group">
+    <item android:title="@string/home"
+      android:id="@+id/main_menu_home"
+      android:icon="@drawable/ic_home_black_24dp" />
+    <item android:title="@string/messages"
+      android:id="@+id/main_menu_messages"
+      android:icon="@drawable/ic_message_black_24dp" />
+    <item android:title="@string/stars"
+      android:id="@+id/main_menu_stars"
+      android:icon="@drawable/ic_star_black_24dp" />
   </group>
-  <group android:checkableBehavior="single"
-    android:id="@+id/menu_other">
-    <item android:title="@string/settings" />
+  <group
+    android:id="@+id/main_menu_other_group">
+    <item android:title="@string/settings"
+      android:id="@+id/main_menu_settings"
+      android:icon="@drawable/ic_settings_black_24dp" />
   </group>
 
 </menu>

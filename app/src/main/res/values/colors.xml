@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <color name="colorPrimary">#3F51B5</color>
-  <color name="colorPrimaryDark">#303F9F</color>
-  <color name="colorAccent">#FF4081</color>
+  <color name="colorPrimary">#00BCD4</color>
+  <color name="colorPrimaryDark">#006064</color>
+  <color name="colorAccent">#FFEB3B</color>
+  <color name="drawer_header_title_color">#fff</color>
+  <color name="drawer_header_subtitle_color">#fff</color>
+  <color name="tabTextColor">#b3ffffff</color>
+  <color name="avatarBorderColor">@android:color/darker_gray</color>
 </resources>
